@@ -1,7 +1,8 @@
 Dataset 1: DOHMH New York City Restaurant Inspection Results
 Raw data (downloaded 17/07/2025): https://uofi.box.com/s/tc11g9t35mfd0wr65jdk5avsd1qaze1x
-To get most updated CSV data file: https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data
-- download optional, final_script.ipynb automatically refreshes this data via API.
+(To get most updated CSV data file: https://data.cityofnewyork.us/Health/DOHMH-New-York-City-Restaurant-Inspection-Results/43nn-pn8j/about_data)
+Clean data (curated by final_script.ipynb): https://uofi.box.com/s/tnnbbn7rxwu3jpgbkp2s0aakaf1l321r
+- download optional, final_script.ipynb automatically refreshes raw data via API and saves clean data as a dataframe for analysis in the notebook.
 
 Dataset 2: NYC Planning Population FactFinder
 Raw data: https://popfactfinder.planning.nyc.gov/explorer/cities/NYC

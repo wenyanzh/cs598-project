@@ -41,7 +41,10 @@
     { "@type": "PropertyValue", "name": "VIOLATION DESCRIPTION", "description": "Violation description associated with an inspection" },
     { "@type": "PropertyValue", "name": "CRITICAL FLAG", "description": "Indicator of critical violation" },
     { "@type": "PropertyValue", "name": "SCORE", "description": "Total score for a particular inspection" },
-    { "@type": "PropertyValue", "name": "GRADE", "description": "Grade associated with the inspection" }
+    { "@type": "PropertyValue", "name": "GRADE", "description": "Grade associated with the inspection" },
+    { "@type": "PropertyValue", "name": "GRADE DATE", "description": "Date when the current grade was issued" },
+    { "@type": "PropertyValue", "name": "RECORD DATE", "description": "Date when the extract was run to produce this data set" },
+    { "@type": "PropertyValue", "name": "INSPECTION TYPE", "description": "Type of inspection performed" }
   ],
   "isBasedOn": {
     "@type": "Dataset",

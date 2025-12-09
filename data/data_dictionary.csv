@@ -1,0 +1,72 @@
+Field,API Field Name,Data Type,Description,Value
+CAMIS,camis,String,Unique 10-digit identifier for each restaurant establishment. All inspections/violations for the same restaurant share this ID.,
+DBA,dba,String,"""Doing Business As"" represents the name of the restaurant.",
+BORO,boro,String,Borough of the restaurant.,"1 = MANHATTAN, 2 = BRONX, 3 = BROOKLYN, 4 = QUEENS, 5 = STATEN ISLAND, Missing"
+BUILDING,building,String,Building number of the address.,
+STREET,street,String,Street name of the address.,
+ZIPCODE,zipcode,String,Zip code of the establishment’s address.,
+PHONE,phone,String,Phone number for the establishment.,
+CUISINE DESCRIPTION,cuisine_description,"String 
+(Optional)",Description of the restaurant's cuisine.,"American, Chinese, Pizza, etc."
+INSPECTION DATE,inspection_date,Date,Date when the inspection was conducted.,Note: 01/01/1900 mean an establishment has not yet had an inspection.
+ACTION,action,String,The actions that is associated with each restaurant inspection.,"• No violations were recorded at the time of this inspection. 
+• Establishment re-opened by DOHMH 
+• Establishment re-closed by DOHMH 
+• Establishment Closed by DOHMH. Violations were cited in the following area(s) and those requiring immediate action were addressed. 
+• ""Missing"" = not yet inspected;"
+VIOLATION CODE,violation_code,String,"	
+Violation code associated with a restaurant inspection. ",
+VIOLATION DESCRIPTION,violation_description,String,"        
+Violation description associated with a restaurant inspection. ",
+CRITICAL FLAG,critical_flag,String,Indicator of critical violation (critical violations are those most likely to contribute to food-borne illness).,"• Critical 
+• Not Critical 
+• Not Applicable"
+SCORE,score,Numeric,Total score for a particular inspection. Lower scores means less violations. ,
+GRADE,grade,String,Letter grade assigned based on score. ,"• A = Grade A
+• B = Grade B
+• C = Grade C
+• Z = Grade Pending
+• P= Grade Pending
+• N = Not Yet Graded"
+GRADE DATE,grade_date,Date,Date when the current grade was issued to the restaurant.,
+RECORD DATE,record_date,Date,Date when the extract was run to produce this dataset.,Note: Dataset updated daily.
+INSPECTION TYPE,inspection_type,String,"	
+A combination of the inspection program and the type of inspection performed.","•Calorie Posting/ Compliance Inspection
+•Calorie Posting/Initial Inspection
+•Calorie Posting/ Re-Inspection
+•Calorie Posting/ Second Compliance Inspection
+•Cycle Inspection/Compliance Inspection
+•Cycle Inspection/Initial Inspection
+•Cycle Inspection/Re-Inspection
+•Cycle Inspection/Reopening Inspection
+•Cycle Inspection/Second Compliance Inspection
+•Inter-Agency Task Force/Initial Inspection
+•Inter-Agency Task Force/Re-Inspection
+•Pre-Permit (Non-operational)/ Compliance Inspection
+•Pre-Permit (Non-operational)/ Initial Inspection
+•Pre-Permit (Non-operational)/ Re-Inspection
+•Pre-Permit (Non-operational)/ Second Compliance Inspection
+•Pre-Permit(Operational)/Compliance Inspection
+•Pre-Permit(Operational)/Initial Inspection
+•Pre-Permit(Operational)/Re-Inspection
+•Pre-Permit(Operational)/Reopening Inspection
+•Pre-Permit(Operational)/Second Compliance Inspection
+•Smoke-Free Air Act/Complaint (Initial Inspection)
+•Smoke-Free Air Act/Compliance Inspection
+•Smoke-Free Air Act/Initial Inspection
+•Smoke-Free Air Act/Limited Inspection
+•Smoke-Free Air Act/Re-inspection
+•Smoke-Free Air Act/Second Compliance Inspection
+•Trans Fat/Compliance Inspection
+•Trans Fat/Initial Inspection
+•Trans Fat/Re-inspection
+•Trans Fat/Second Compliance Inspection"
+Latitude,latitude,Numeric,Latitude coordinate of the restaurant. ,
+Longitude,longitude,Numeric,Longitude coordinate of the restaurant. ,
+Community Board,community_board,String,Community Board number (used for NYC political / planning subdivision) for the location. ,
+Council District,council_district,String,City Council district number associated with the address. ,
+Census Tract,census_tract,String,Census tract ID for the address. ,
+BIN,bin,String,Building Identification Number is an unique building-level identifier used in NYC property records. ,
+BBL,bbl,String,Borough-Block-Lot number is an unique property identifier in NYC land records. ,
+NTA,nta,String,Neighborhood Tabulation Area represents medium-sized statistical geographies for reporting Decennial Census and American Community Survey. ,
+Location,location,String,Geospatial point representing the establishment’s approximate location. ,

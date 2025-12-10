@@ -10,9 +10,14 @@ The main research questions are:
 - **Borough-level comparison:** How do food safety results differ in the five boroughs? Is it related to demographic profiles such as population density?  
 - **Violation patterns:** Do restaurants generally improve after multiple inspections?  
 - **Cuisine-specific analysis:** Are some cuisines more likely to receive critical violations or bad grades?  
-- **Seasonality:** Are there seasonal or holiday-related spikes in food safety violations?  
+- **Seasonality:** Are there seasonal or holiday-related spikes in food safety violations? 
 
-## How to Run
+## Content Breakdown
+- **data:** contains raw and processed curated data for reproduction
+- **documentation:** contains detailed metadata describing the dataset and documentation of all the available fields and their values if applicable 
+- **workflow:** contains important steps of a data curation workflow. final_scirpt.ipynb has the full pipeline and data_analysis.pdf has all the visuals and findings
+
+## How to Run the Notebook
 
 The code (final_script.ipynb) inside notebook folder is designed for **Google Colab**.
 
